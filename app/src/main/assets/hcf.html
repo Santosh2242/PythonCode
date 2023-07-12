@@ -1,0 +1,51 @@
+<html>
+ <head>
+     <style>
+	  .title{
+	     margin:center;
+		 font-size:25px;
+		 font-family:bold;
+		text-align: center;
+	  }
+	  .right {
+              padding: 20px 0;
+              border: 3px solid green;
+              text-align: center;
+             }
+     </style>
+ </head>
+   <body>
+       <p class="title">Question</p>
+	   <p class="right"> Program to Find HCF </p>
+       <p class="title">Program</p>
+	   <p class="right">
+	def calculate_hcf(x, y):  <br>
+    # selecting the smaller number  <br>
+    if x > y:  <br>
+        smaller = y  <br>
+    else:  <br>
+        smaller = x  <br>
+    for i in range(1,smaller + 1):  <br>
+        if((x % i == 0) and (y % i == 0)):  <br>
+            hcf = i  <br>
+    return hcf  <br>
+  
+# taking input from users  <br>
+num1 = int(input("Enter first number: "))  <br>
+num2 = int(input("Enter second number: "))  <br>
+# printing the result for the users  <br>
+print("The H.C.F. of", num1,"and", num2,"is", calculate_hcf(num1, num2))<br><br>
+<br>
+	<p class="title">Output</p>
+	 <p class="right">
+Enter first number: 8 <br>
+Enter second number: 12  <br>
+The H.C.F. of 8 and 12 is 4<br>
+<br>
+ 	 
+
+	   </p>
+
+
+    </body>
+</html>

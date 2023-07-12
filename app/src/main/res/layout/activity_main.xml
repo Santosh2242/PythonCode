@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Python Code Example"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:background="@color/teal"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_title"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/addUnitId1">
+    </com.google.android.gms.ads.AdView>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_below="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listView"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/addUnitId2">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

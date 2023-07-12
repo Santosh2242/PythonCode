@@ -1,0 +1,48 @@
+<html>
+ <head>
+     <style>
+	  .title{
+	     margin:center;
+		 font-size:25px;
+		 font-family:bold;
+		text-align: center;
+	  }
+	  .right {
+              padding: 20px 0;
+              border: 3px solid green;
+              text-align: center;
+             }
+     </style>
+ </head>
+   <body>
+       <p class="title">Question</p>
+	   <p class="right">Program to Check Prime Number</p>
+       <p class="title">Program</p>
+	   <p class="right">
+	num = 11<br>
+# If given number is greater than 1<br>
+if num > 1:<br>
+    # Iterate from 2 to n / 2<br>
+    for i in range(2, int(num/2)+1):<br>
+        # If num is divisible by any number between<br>
+        # 2 and n / 2, it is not prime<br>
+        if (num % i) == 0:<br>
+            print(num, "is not a prime number")<br>
+            break<br>
+    else:<br>
+        print(num, "is a prime number")<br>
+else:<br>
+    print(num, "is not a prime number")<br>
+<br>
+	<p class="title">Output</p>
+	 <p class="right">
+	
+   11 is a prime number<br>            
+
+ 	 
+
+	   </p>
+
+
+    </body>
+</html>

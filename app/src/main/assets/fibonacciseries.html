@@ -1,0 +1,64 @@
+<html>
+ <head>
+     <style>
+	  .title{
+	     margin:center;
+		 font-size:25px;
+		 font-family:bold;
+		text-align: center;
+	  }
+	  .right {
+              padding: 20px 0;
+              border: 3px solid green;
+              text-align: center;
+             }
+     </style>
+ </head>
+   <body>
+       <p class="title">Question</p>
+	   <p class="right">Program to Print the Fibonacci sequence </p>
+       <p class="title">Program</p>
+	   <p class="right">
+	nterms = int(input("How many terms? "))<br>
+
+# first two terms<br>
+n1, n2 = 0, 1<br>
+count = 0<br>
+
+# check if the number of terms is valid<br>
+if nterms <= 0:<br>
+   print("Please enter a positive integer")<br>
+
+elif nterms == 1:<br>
+   print("Fibonacci sequence upto",nterms,":")<br>
+   print(n1)<br>
+else:<br>
+   print("Fibonacci sequence:")<br>
+   while count < nterms:<br>
+       print(n1)<br>
+       nth = n1 + n2<br>
+       # update values<br>
+       n1 = n2<br>
+       n2 = nth<br>
+       count += 1<br>
+<br>
+	<p class="title">Output</p>
+	 <p class="right">
+	
+   How many terms? 7<br>
+Fibonacci sequence:<br>
+0<br>
+1<br>
+1<br>
+2<br>
+3<br>
+5<br>
+8<br>
+<br>
+ 	 
+
+	   </p>
+
+
+    </body>
+</html>

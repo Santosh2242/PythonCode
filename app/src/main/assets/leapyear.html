@@ -1,0 +1,41 @@
+<html>
+ <head>
+     <style>
+	  .title{
+	     margin:center;
+		 font-size:25px;
+		 font-family:bold;
+		text-align: center;
+	  }
+	  .right {
+              padding: 20px 0;
+              border: 3px solid green;
+              text-align: center;
+             }
+     </style>
+ </head>
+   <body>
+       <p class="title">Question</p>
+	   <p class="right">Program to Check Leap Year</p>
+       <p class="title">Program</p>
+	   <p class="right">
+	   
+  
+def CheckLeap(Year):  <br>
+    if((Year % 400 == 0) or  <br>
+     (Year % 100 != 0) and <br> 
+     (Year % 4 == 0)):   <br>
+    print("Given Year is a leap Year"); <br>  
+  else:  <br>
+    print ("Given Year is not a leap Year") <br>  
+Year = int(input("Enter the number: "))  <br>
+CheckLeap(Year)  <br>
+	<p class="title">Output</p>
+	   <p class="right">
+	   Enter the number: 2023<br>
+Given year is not a leap Year<br>
+	   </p>
+
+
+    </body>
+</html>

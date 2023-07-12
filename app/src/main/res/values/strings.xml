@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">PythonCode</string>
+
+    <!--demo unit Id-->
+    <string name="addUnitId1">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="addUnitId2">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="addUnitId3">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="addUnitId4">ca-app-pub-3940256099942544/6300978111</string>
+
+
+
+    <!--<string name="addUnitId1">ca-app-pub-5948567736453384/1926995346</string>
+    <string name="addUnitId2">ca-app-pub-5948567736453384/5136187006</string>
+    <string name="addUnitId3">ca-app-pub-5948567736453384/2317671724</string>
+    <string name="addUnitId4">ca-app-pub-5948567736453384/9148155023</string>-->
+
+    <string name="appId">ca-app-pub-5948567736453384~1177251967</string>
+
+
+
+    <string-array name="python_code">
+        <item> Python Program to Print "Hello world!" </item>
+        <item> Python Program to Add Two Numbers </item>
+        <item> Python Program to Add Three Numbers </item>
+        <item> Python Program to Find the Square Root </item>
+        <item> Python program to find the area of a triangle </item>
+        <item> Python Program to Swap Two Variables </item>
+        <item> Python Program to Generate a Random Number </item>
+        <item> Python program to convert kilometers to miles </item>
+        <item> Python program to convert Celsius to Fahrenheit </item>
+        <item> Python Program to Check if a Number is Positive, Negative or 0 </item>
+        <item> Python Program to Check if a Number is Odd or Even </item>
+        <item> Python Program to Check Leap Year </item>
+        <item> Python program to display calendar </item>
+        <item> Python Program to Check Prime Number </item>
+        <item> Python Program to Find the Factorial of a Number </item>
+        <item> Python Program to Display the multiplication Table </item>
+        <item> Python Program to Print the Fibonacci sequence </item>
+        <item> Python Program to Check Armstrong Number </item>
+        <item> Python Program to Find the Sum of Natural Numbers </item>
+        <item> Python Program to Find the Largest Among Three Numbers </item>
+        <item> Python Program to Find Numbers Divisible by Another Number </item>
+        <item> Python Program to Convert Decimal to Binary, Octal and Hexadecimal </item>
+        <item> Python Program to Find ASCII Value of Character </item>
+        <item> Python Program to Find HCF </item>
+        <item> Python Program to Find LCM </item>
+    </string-array>
+</resources>
